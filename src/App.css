@@ -1,0 +1,108 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+#root {
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  padding: 0 2%;
+  width: 100%;
+  min-height: 90%;
+  background-color: #fef3e0;
+  color: #4e6a8b;
+  font-size: 15px;
+}
+
+.card-container img {
+  width: 100%;
+  /* height: 20%; */
+}
+
+.card-container .card-mid {
+  background-color: white;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+.card-mid .card-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-mid .card-content .receiver {
+  float: left;
+}
+
+.card-gif {
+  width: 100%;
+  height: 70%;
+}
+.card-gif img {
+  height: 50%;
+}
+
+.main-pray {
+  text-align: center;
+  width: 100%;
+  font-size: 48px;
+  color: rgb(225, 203, 0);
+  font-weight: 600;
+}
+
+.sender {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+}
